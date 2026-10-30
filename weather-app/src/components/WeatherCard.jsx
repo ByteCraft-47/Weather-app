@@ -29,7 +29,7 @@ function Weather() {
 
       setWeather(data);
       setError("");
-    } catch (err) {
+    } catch {
       setError("Failed to fetch weather data");
       setWeather(null);
     }
